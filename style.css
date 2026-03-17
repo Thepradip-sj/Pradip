@@ -1,7 +1,7 @@
 *{
     margin: 0;
-    border: 0;
-    box-sizing: border;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: #1e1e1e;
@@ -14,4 +14,40 @@ body{
     grid-template-columns:350px 1fr;
     max-width:1200px;
     gap:40px;
+    padding:40px;
+    margin:auto;
+}
+.sidebar{
+    background-color: #2a2a2a;
+    height:90vh;
+    border-radius:16px;
+    border:1px solid #3a3a3a;
+}
+.main-content{
+    background-color:#2a2a2a;
+    height:90vh;
+    border-radius:16px;
+    border:1px solid #3a3a3a;
+}
+.profile-info img{
+    height:120px;
+    width:120px;
+    border-radius:50%;
+    border:1px solid #3a3a3a;
+}
+.profile-info h2{
+    font-size:1.5rem;
+    font-weight:700;
+    margin-top:20px;
+    color:#e0e0e0;
+}
+.profile-info p{
+    background-color: #1e1e1e;
+    padding:5px 15px;
+    color:#FFBF00;
+    border:1px solid #3a3a3a;
+    font-size: 0.8rem;
+    border-radius:8px;
+    display: inline-block;
+    margin-top: 10px;
 }
