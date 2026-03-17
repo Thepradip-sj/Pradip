@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border;
+}
+body{
+    background-color: #1e1e1e;
+    font-family:sans-serif;
+    color:#a0a0a0;
+    line-height:1.6;
+}
+.main-container{
+    display:grid;
+    grid-template-columns:350px 1fr;
+    max-width:1200px;
+    gap:40px;
+}
