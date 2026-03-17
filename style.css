@@ -19,7 +19,7 @@ body{
 }
 .sidebar{
     background-color: #2a2a2a;
-    height:90vh;
+    height:120vh;
     border-radius:16px;
     border:1px solid #3a3a3a;
 }
@@ -28,6 +28,10 @@ body{
     height:90vh;
     border-radius:16px;
     border:1px solid #3a3a3a;
+}
+.profile-info{
+    padding:40px;
+    text-align:center;
 }
 .profile-info img{
     height:120px;
@@ -50,4 +54,40 @@ body{
     border-radius:8px;
     display: inline-block;
     margin-top: 10px;
+}
+.contact{
+    margin: 30px;
+    border-top:2px solid #3a3a3a;
+    padding:20px;
+}
+.em{
+    font-weight: 500;
+    font-size: 0.8rem;
+    color:#a0a0a0;
+}
+.val{
+    color:#e0e0e0;
+    text-decoration:none;
+}
+.email{
+    margin-bottom:15px;
+}
+.phone{
+    margin-bottom:15px;
+}
+.social-media{
+    margin: 30px;
+    border-top:2px solid #3a3a3a;
+    padding:20px;
+    text-align:center;
+}
+.social-media img{
+    height:24px;
+    width:24px;
+    margin-left:10px;
+    filter:grayscale(1) invert(0.7);
+    transition:filter 0.3s ease;
+}
+.social-media img:hover{
+    filter: grayscale(0) invert(0);
 }
